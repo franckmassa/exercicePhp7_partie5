@@ -9,9 +9,10 @@
     <?php
     //Déclaration de la variable haut De France avec pour index le numéro des départements
     $hautDeFrance = array('60' => 'Oise', '02' => 'Aisne',
-    '80' => 'Somme', '59' => 'Nord', '62' => 'Pas-De-Calais', '51' => 'Marne');
-    //Affichage du département de la ville de Reims
-    echo $hautDeFrance [51];
+    '80' => 'Somme', '59' => 'Nord', '62' => 'Pas-De-Calais');
+    //Ajout du département de la Marne et Affichage 
+    $hautDeFrance ['51'] = 'Marne';
+    echo $hautDeFrance ['51'];
     ?>
   </p>
 </body>
